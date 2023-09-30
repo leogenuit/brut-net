@@ -1,0 +1,15 @@
+header {
+  padding-top: 60px;
+  text-align: center;
+}
+header .title {
+  color: whitesmoke;
+  font-size: 25px;
+  @media only screen and (max-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+img {
+  width: 50px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mooli&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="d-flex justify-content-center align-items-center">
+      <img src="./devise.png" alt="" class="pr05" />
+      <h1 class="title">Conversion de votre salaire</h1>
+    </header>
+
+    <div class="content">
+      <div class="brut-net d-flex justify-content-center">
+        <div class="brut">
+          <p class="subtitle">Votre salaire brut :</p>
+          <div>
+            <p id="reset">Horraire Brut</p>
+            <input type="number" id="h-brut" placeholder="ex : 9.88" />
+          </div>
+          <div>
+            <p>Mensuel Brut</p>
+            <input
+              type="number"
+              id="m-brut"
+              value="value"
+              placeholder="ex : 1491,88"
+            />
+          </div>
+          <div>
+            <p>Annuel Brut</p>
+            <input type="number" id="a-brut" placeholder="ex : 17981,60" />
+          </div>
+        </div>
+        <div class="net mb4">
+          <p class="subtitle">Votre salaire net :</p>
+          <div>
+            <p>Horraire Net</p>
+            <input type="number" id="h-net" placeholder="Horraire" />
+          </div>
+          <div>
+            <p>Mensuel Net</p>
+            <input type="number" id="m-net" placeholder="Mensuel" />
+          </div>
+          <div>
+            <p>Annuel Net</p>
+            <input type="number" id="a-net" placeholder="Annuel" />
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <div class="d-flex justify-content-center mb1">
+          <button onclick="getAllValues()">Calculer</button>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button onclick="clearAllValues()">Effacer les champs</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">© Copyright tous droits réservés 2023</footer>
+  </body>
+</html>

@@ -1,7 +1,7 @@
 @import url("./footer.css");
 @import url("./header.css");
 @import url("./content.css");
-@import url("./_flex.css");
+@import url("./flex.css");
 @import url("./bootstrap.css");
 * {
   box-sizing: border-box;
